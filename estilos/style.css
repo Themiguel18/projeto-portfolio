@@ -22,12 +22,25 @@
   --destaque-inverso: #66bbff;
   --fundo-card: #ffff;
 }
+
+body.escuro{
+  background-color: black;
+  --fundo-principal:#2222;
+  --texto:#e0e0e0;
+  --texto-inverso:#3333;
+  --destaque:#ff5522;
+  --destaque-inverso:#1a0803;
+  --fundo-card:#4444;
+}
+
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
 }
+
+
 
 header{
   background-color: var(--destaque);
