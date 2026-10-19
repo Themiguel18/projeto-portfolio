@@ -52,9 +52,11 @@ section.sobre{
     font-weight: 300;
 }
 
-.sobre h1 span{
-    font-weight: 700;
+.sobre h1 u{
+    height: 50px;
 }
+
+
 
 section.sobre div.acerca{
     display: flex;
@@ -78,4 +80,79 @@ section.sobre div.interface article p{
 
 main hr{
     margin: 30px;
+}
+
+/* section contato */
+
+section.contato div.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.phone{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.info .igrande{
+    font-size: 5em;
+}
+
+.contato .interface .redes{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.contato .interface .redes button{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.contato .interface .redes button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+/* section linguas */
+
+section.linguas .interface .linguasFaladas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.linguas .interface span{
+    font-size: 5em;
+}
+
+section.linguas .interface .linguasFaladas p{
+    font-size: .7em;
+}
+
+/* section skills */
+
+
+
+
+.skills input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 0;
+    height: 0;
+    
+    
+}
+
+
+.skills input[type="range"]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border: none;
 }
