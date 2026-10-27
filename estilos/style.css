@@ -145,12 +145,13 @@ section.linguas .interface .linguasFaladas{
 section.linguas .interface span{
     font-size: 5em;
     display: flex;
-    flex-flow: column nowrap;
-    
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 section.linguas .interface span p{
-    font-size: .5em;
+    font-size: .3em;
 }
 
 section.linguas .interface .linguasFaladas p{
